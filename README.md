@@ -11,6 +11,12 @@ This repo hosts my Bikeshare project files for the Udacity nanodegree, [Programm
     - `new_york_city.csv`
     - `washington.csv`
 
+### Software requirements
+- Python ≥2.7
+- required Python libraries
+    - time
+    - pandas
+
 ### Usage 
 Run `python bikeshare_project.py` from the same directory where the data files are located.
 
