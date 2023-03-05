@@ -208,7 +208,7 @@ def user_stats(df, city):
     print('\n', '-'*40, '\n', '-'*40, sep='')
 
 
-def display_data(df):
+def show_data(df):
     """
     Displays raw data in increments of 5 rows.
 
@@ -252,7 +252,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
-        display_data(df)
+        show_data(df)
 
         restart = input('\nWould you like to restart (y/n)? ').title()
         if restart not in ['Yes', 'Y']:
