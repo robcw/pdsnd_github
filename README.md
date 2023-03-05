@@ -1,17 +1,22 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+March 5, 2023
 
-### Project Title
-Replace the Project Title
+## **Udacity Programming for Data Science with Python Bikeshare Project**
+This repo hosts my Bikeshare project files for the Udacity nanodegree, [Programming for Data Science with Python](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104).  The bikeshare_project.py Python script filters and summarizes bike share data for one of three user-chosen cities - Chicago, New York City, or Washington.  The user is then prompted to filter the data by one or all months and/or one or all days of the week.  Statistics are computed and displayed for most common times of travel, start and end statitions and trips, trip durations, and users characteristics.
 
-### Description
-Describe what your project is about and what it does
-
-### Files used
-Include the files used
+### Files
+- bikeshare_project.py
+- data files:
+    - chicago.csv
+    - new_york_city.csv
+    - washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+_All work is solely my own._  I used the external website [Stack Overflow](https://stackoverflow.com/) for help converting seconds into human-readable time, displaying all columns of a pandas dataframe, and formatting integers with commas.
 
+[Stack Overflow](https://stackoverflow.com/) pages consulted:
+- https://stackoverflow.com/questions/775049/how-do-i-convert-seconds-to-hours-minutes-and-seconds
+- https://stackoverflow.com/questions/11361985/output-data-from-all-columns-in-a-dataframe-in-pandas
+- https://stackoverflow.com/questions/1823058/how-to-print-a-number-using-commas-as-thousands-separators
+
+Thank you @udacity! :+1:
