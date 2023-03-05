@@ -58,7 +58,7 @@ def get_filters():
         else:
             print('Please enter a valid day.')
 
-    print('\n', '-'*40, '\n', '-'*40, sep='')
+    print('\n', '-'*50, '\n', '-'*50, sep='')
     return city, month, day
 
 
@@ -117,7 +117,7 @@ def time_stats(df, month, day):
     print('Most popular start hour: ', popular_hour)
 
     print("\nMost common times statistics took %s seconds." % (time.time() - start_time))
-    print('\n', '-'*40, sep='')
+    print('\n', '-'*50, sep='')
 
 
 def station_stats(df):
@@ -146,7 +146,7 @@ def station_stats(df):
     print('Most popular trip from start to end:', popular_start_end_stations)
 
     print("\nStation and trip statistics took %s seconds." % (time.time() - start_time))
-    print('\n', '-'*40, sep='')
+    print('\n', '-'*50, sep='')
 
 
 def trip_duration_stats(df):
@@ -173,7 +173,7 @@ def trip_duration_stats(df):
     print("Mean travel time:  {} hours, {} minutes, {} seconds".format(int(hours), int(minutes), int(seconds)))
 
     print("\nTrip duration statistics took %s seconds." % (time.time() - start_time))
-    print('\n', '-'*40, sep='')
+    print('\n', '-'*50, sep='')
 
 
 def user_stats(df, city):
@@ -205,7 +205,7 @@ def user_stats(df, city):
         print("\nThere are no gender or birth year statistics available for Washington.")
 
     print("\nUser statistics took %s seconds." % (time.time() - start_time))
-    print('\n', '-'*40, '\n', '-'*40, sep='')
+    print('\n', '-'*50, '\n', '-'*50, sep='')
 
 
 def show_data(df):
@@ -240,7 +240,7 @@ def show_data(df):
         else:
             continue
 
-    print('\n', '-'*40, '\n', '-'*40, sep='')
+    print('\n', '-'*50, '\n', '-'*50, sep='')
 
 
 def main():
